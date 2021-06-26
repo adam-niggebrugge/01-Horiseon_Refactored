@@ -1,0 +1,306 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*To span the entire pages, fill in blank space with between any elements that space*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*Class to drive the header section
+  v1.1.0
+  Changed to display flex to allow navigation links to
+  be displayed in same section of page but this should remain
+  align items to keep logo as if it is the dominant piece of header
+*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+/*User driven desired for header size.
+ flex auto allows for the display to appear on multiple devices 
+ without losing its overall place
+Revision v1.1.0*/
+.header h1 {  
+    font-size: 48px; 
+    flex: auto; 
+}
+
+/*
+  User desire to replicate logo's use of two colors
+  Previous code had it found by using the non semantic tags 
+  Revision v1.1.0
+*/
+.seo {
+    color: #d9dcd6;
+}
+
+/*
+Replaced multi div class with semantic tag <nav> 
+Revision v1.1.0
+*/
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*
+Replaced multi div class with semantic tag <nav> 
+user doesn't want list elements showing
+Revision v1.1.0
+Added margin left to each element to space out navigational list
+*/
+.header nav ul {
+    list-style-type: none;
+    margin-left: 25px;  
+}
+
+
+/*
+Revision v1.1.0
+*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*
+Revision v1.1.0
+*/
+p {
+    font-size: 16px;
+}
+
+/*
+User wants the image to span entire page directly below the header section.
+Revision v1.1.0
+*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*
+Revision v1.1.0
+*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*
+Revision v1.1.0
+*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*
+Revision v1.1.0
+*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*
+Revision v1.1.0
+*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*
+Revision v1.1.0
+*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*
+Revision v1.1.0
+*/
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*
+Revision v1.1.0
+*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*
+Revision v1.1.0
+*/
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*
+Revision v1.1.0
+*/
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*
+Revision v1.1.0
+*/
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*
+Revision v1.1.0
+*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*
+Revision v1.1.0
+*/
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*
+Revision v1.1.0
+*/
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*
+Revision v1.1.0
+*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*
+Revision v1.1.0
+*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*
+Revision v1.1.0
+*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*
+Revision v1.1.0
+*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/*
+Revision v1.1.0
+*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/*
+Revision v1.1.0
+*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/*
+Revision v1.1.0
+*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*
+Revision v1.1.0
+*/
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*
+Revision v1.1.0
+*/
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*
+Revision v1.1.0
+*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*
+Revision v1.1.0
+*/
+.footer h2 {
+    font-size: 20px;
+}
