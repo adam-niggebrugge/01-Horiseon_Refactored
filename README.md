@@ -7,7 +7,7 @@ First bootcamp spot homework. Code refactoring to improve accessibility.  Access
 This work displays semantic HTML understanding. It was also a test to minimize css styling through semantic HTML use. Originally was set up to use multiple classes for every block element styling and inline element styling. In refactoring the code, I ensured that multiple comments were left for every change to help any following coder understand motivations for changing the existing structure.
 
 ## Want to Click Things?
-[Live Website:](https://adam-niggebrugge.github.io/01-Horiseon_Refactored/#online-reputation-management)
+[Live Website](https://adam-niggebrugge.github.io/01-Horiseon_Refactored/#online-reputation-management)
 
 ## Preview of Website
 
